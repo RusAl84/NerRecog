@@ -91,6 +91,7 @@ def word2features(sent, i):
     features = {
         'bias': 1.0,
         'word.lower()': word.lower(),
+        'originalWord': word,
         'word[-3:]': word[-3:],
         'word[-2:]': word[-2:],
         'word.isupper()': word.isupper(),
@@ -98,6 +99,7 @@ def word2features(sent, i):
         'word.isdigit()': word.isdigit(),
         'postag': postag,
         'postag[:2]': postag[:2],
+
     }
     if i > 0:
         word1 = sent[i - 1][0]
