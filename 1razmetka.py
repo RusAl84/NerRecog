@@ -2,7 +2,7 @@
 # из gdata_???.cvs делает ner_my (senteses)
 # gdata_10000 сконвертировал в ner_my и разметил вручную
 # gdata_edu
-
+import gensim as gensim
 import pandas as pd
 from razdel import sentenize
 from natasha import (
@@ -12,14 +12,26 @@ from natasha import (
     Doc
 )
 
+
 if __name__ == "__main__":
-    columns = ['safeguards_txt', 'pd_category', 'pd_handle',
-               'category_sub_txt', 'actions_category', 'stop_condition']
-    # df = pd.read_csv("gdata_10000.csv", encoding='utf-8')
-    df = pd.read_csv("gdata_edu.csv", encoding='utf-8')
-    text = df.loc[:, ["safeguards_txt"]]
-    text = text.values.tolist()
+
+    # #Загрузка данных из файла csv
+    # # columns = ['safeguards_txt', 'pd_category', 'pd_handle',
+    # #            'category_sub_txt', 'actions_category', 'stop_condition']
+    # # df = pd.read_csv("gdata_10000.csv", encoding='utf-8')
+    # df = pd.read_csv("gdata_edu.csv", encoding='utf-8')
+    # # выбор поля с данными
+    # text = df.loc[:, ["safeguards_txt"]]
+    # text = text.values.tolist()
+
+    # загрузка данных из файла txt
+    with open('text.txt', encoding="utf-8") as fp:
+        data = fp.read()
+    text=[[data]]
+
+
     stext = text
+
     segmenter = Segmenter()
     emb = NewsEmbedding()
     morph_tagger = NewsMorphTagger(emb)
@@ -27,6 +39,7 @@ if __name__ == "__main__":
     mas_sentenses_num = []
     mas_text = []
     mas_pos = []
+    mas_tag = []
 
     for item_text in stext:
         # print(item_text[0])
@@ -36,8 +49,8 @@ if __name__ == "__main__":
         # print(text)
         print(ind)
         # ind+=1
-        sent = list(sentenize(text))
-        for item in sent:
+        sentens = list(sentenize(text))
+        for item in sentens: # предложения
             # print("_______")
             ttext = item.text
             # print(ttext)
@@ -56,13 +69,12 @@ if __name__ == "__main__":
                     pos = item2.pos
                     mas_pos.append(pos)
                     # print(item2.text + " " + item2.pos)
+                    mas_tag.append("O")
             ind += 1
-    sdf = pd.DataFrame(mas_sentenses_num, columns=['mas_sentenses_num'])
-    sdf['mas_text'] = pd.Series(mas_text)
-    sdf['mas_pos'] = pd.Series(mas_pos)
+    sdf = pd.DataFrame(mas_sentenses_num, columns=['Sentence #'])
+    sdf['Word'] = pd.Series(mas_text)
+    sdf['POS'] = pd.Series(mas_pos)
+    sdf['Tag'] = pd.Series(mas_tag)
     sdf.to_csv("ner_my.csv")
-    # str1=""
-    # for item in mas_text:
-    #     str1 = str1 +" " + item
-    # print("============================")
-    # print(str1)
+
+
