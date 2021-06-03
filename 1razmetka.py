@@ -1,8 +1,8 @@
 # Файл готовит из файла с данными  - разметку для файла
 # из gdata_???.cvs делает ner_my (senteses)
-# gdata_10000 сконвертировал в ner_my и разметил вручную
+# gdata_10000 сконвертировал в ner_my и разметил вручную учил на 10000
+
 # gdata_edu
-import gensim as gensim
 import pandas as pd
 from razdel import sentenize
 from natasha import (
@@ -16,18 +16,18 @@ from natasha import (
 if __name__ == "__main__":
 
     # #Загрузка данных из файла csv
-    # # columns = ['safeguards_txt', 'pd_category', 'pd_handle',
-    # #            'category_sub_txt', 'actions_category', 'stop_condition']
-    # # df = pd.read_csv("gdata_10000.csv", encoding='utf-8')
-    # df = pd.read_csv("gdata_edu.csv", encoding='utf-8')
-    # # выбор поля с данными
-    # text = df.loc[:, ["safeguards_txt"]]
-    # text = text.values.tolist()
+    # columns = ['safeguards_txt', 'pd_category', 'pd_handle',
+    #            'category_sub_txt', 'actions_category', 'stop_condition']
+    # df = pd.read_csv("gdata_10000.csv", encoding='utf-8')
+    df = pd.read_csv("gdata_edu.csv", encoding='utf-8')
+    # выбор поля с данными
+    text = df.loc[:, ["safeguards_txt"]]
+    text = text.values.tolist()
 
     # загрузка данных из файла txt
-    with open('text.txt', encoding="utf-8") as fp:
-        data = fp.read()
-    text=[[data]]
+    # with open('text.txt', encoding="utf-8") as fp:
+    #     data = fp.read()
+    # text=[[data]]
 
 
     stext = text

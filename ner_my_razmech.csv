@@ -127,7 +127,7 @@
 125,Sentence: 2,614-О,NUM,O
 126,Sentence: 2,",",PUNCT,O
 127,Sentence: 2,от,ADP,O
-128,Sentence: 2,17.12.2012,ADJ,O
+128,Sentence: 2,17.12.2012,ADJ,B-date
 129,Sentence: 2,г,NOUN,O
 130,Sentence: 2,),PUNCT,O
 131,Sentence: 2,".,",PUNCT,O
@@ -149,7 +149,7 @@
 147,Sentence: 2,614-О,NUM,O
 148,Sentence: 2,",",PUNCT,O
 149,Sentence: 2,от,ADP,O
-150,Sentence: 2,17.12.2012,ADJ,O
+150,Sentence: 2,17.12.2012,ADJ,B-date
 151,Sentence: 2,г,NOUN,O
 152,Sentence: 2,.,PUNCT,O
 153,Sentence: 2,),PUNCT,O
@@ -931,7 +931,7 @@
 929,Sentence: 19,правительства,NOUN,O
 930,Sentence: 19,РФ,PROPN,O
 931,Sentence: 19,от,ADP,O
-932,Sentence: 19,01.11.2012,NUM,O
+932,Sentence: 19,01.11.2012,NUM,B-date
 933,Sentence: 19,№,SYM,O
 934,Sentence: 19,1119,NUM,O
 935,Sentence: 19,),PUNCT,O
@@ -2340,7 +2340,7 @@
 2338,Sentence: 47,№,SYM,O
 2339,Sentence: 47,890,NUM,O
 2340,Sentence: 47,от,ADP,O
-2341,Sentence: 47,25.12.2012,NUM,O
+2341,Sentence: 47,25.12.2012,NUM,B-date
 2342,Sentence: 47,назначено,VERB,O
 2343,Sentence: 47,ответственное,ADJ,O
 2344,Sentence: 47,лицо,NOUN,O
@@ -2907,7 +2907,7 @@
 2905,Sentence: 70,ректором,NOUN,O
 2906,Sentence: 70,НГУЭУ,PROPN,O
 2907,Sentence: 70,от,ADP,O
-2908,Sentence: 70,12.12.2012,NUM,O
+2908,Sentence: 70,12.12.2012,NUM,B-date
 2909,Sentence: 70,".,",PUNCT,O
 2910,Sentence: 71,«,PUNCT,O
 2911,Sentence: 71,Инструкции,NOUN,O
@@ -2933,7 +2933,7 @@
 2931,Sentence: 71,ректором,NOUN,O
 2932,Sentence: 71,НГУЭУ,PROPN,O
 2933,Sentence: 71,от,ADP,O
-2934,Sentence: 71,12.12.2012,NUM,O
+2934,Sentence: 71,12.12.2012,NUM,B-date
 2935,Sentence: 71,".,",PUNCT,O
 2936,Sentence: 72,«,PUNCT,O
 2937,Sentence: 72,Инструкция,NOUN,O
@@ -2952,7 +2952,7 @@
 2950,Sentence: 72,ректором,NOUN,O
 2951,Sentence: 72,НГУЭУ,PROPN,O
 2952,Sentence: 72,от,ADP,O
-2953,Sentence: 72,12.12.2012,NUM,O
+2953,Sentence: 72,12.12.2012,NUM,B-date
 2954,Sentence: 72,".,",PUNCT,O
 2955,Sentence: 73,Приказ,PROPN,O
 2956,Sentence: 73,от,ADP,O
@@ -4136,7 +4136,7 @@
 4134,Sentence: 116,№,SYM,O
 4135,Sentence: 116,1024/1,NUM,O
 4136,Sentence: 116,от,ADP,O
-4137,Sentence: 116,29.06.2012,NUM,O
+4137,Sentence: 116,29.06.2012,NUM,B-date
 4138,Sentence: 116,«,PUNCT,O
 4139,Sentence: 116,О,ADP,O
 4140,Sentence: 116,назначении,NOUN,O
@@ -4150,7 +4150,7 @@
 4148,Sentence: 117,№,SYM,O
 4149,Sentence: 117,1021/1,NUM,O
 4150,Sentence: 117,от,ADP,O
-4151,Sentence: 117,29.06.2012,NUM,O
+4151,Sentence: 117,29.06.2012,NUM,B-date
 4152,Sentence: 117,«,PUNCT,O
 4153,Sentence: 117,О,ADP,O
 4154,Sentence: 117,назначении,NOUN,O
@@ -4162,7 +4162,7 @@
 4160,Sentence: 118,Приказ,PROPN,O
 4161,Sentence: 118,1022/1,NUM,O
 4162,Sentence: 118,от,ADP,O
-4163,Sentence: 118,29.06.2012,NUM,O
+4163,Sentence: 118,29.06.2012,NUM,B-date
 4164,Sentence: 118,«,PUNCT,O
 4165,Sentence: 118,О,ADP,O
 4166,Sentence: 118,назначении,NOUN,O
@@ -8093,7 +8093,7 @@
 8091,Sentence: 220,Правительства,PROPN,O
 8092,Sentence: 220,РФ,PROPN,O
 8093,Sentence: 220,от,ADP,O
-8094,Sentence: 220,01.11.2012,NUM,O
+8094,Sentence: 220,01.11.2012,NUM,B-date
 8095,Sentence: 220,№,SYM,O
 8096,Sentence: 220,1119,NUM,O
 8097,Sentence: 220,.,PUNCT,O
@@ -13896,7 +13896,7 @@
 13894,Sentence: 399,ректора,NOUN,O
 13895,Sentence: 399,университета,NOUN,O
 13896,Sentence: 399,от,ADP,O
-13897,Sentence: 399,06.03.2012,ADJ,O
+13897,Sentence: 399,06.03.2012,ADJ,B-date
 13898,Sentence: 399,г,NOUN,O
 13899,Sentence: 399,.,PUNCT,O
 13900,Sentence: 399,№,SYM,O
@@ -16573,7 +16573,7 @@
 16571,Sentence: 459,Правительства,PROPN,O
 16572,Sentence: 459,РФ,PROPN,O
 16573,Sentence: 459,от,ADP,O
-16574,Sentence: 459,01.11.2012,NUM,O
+16574,Sentence: 459,01.11.2012,NUM,B-date
 16575,Sentence: 459,№,SYM,O
 16576,Sentence: 459,1119,NUM,O
 16577,Sentence: 459,.,PUNCT,O
@@ -21304,7 +21304,7 @@
 21302,Sentence: 573,Правительства,PROPN,O
 21303,Sentence: 573,РФ,PROPN,O
 21304,Sentence: 573,от,ADP,O
-21305,Sentence: 573,01.11.2012,NUM,O
+21305,Sentence: 573,01.11.2012,NUM,B-date
 21306,Sentence: 573,№,SYM,O
 21307,Sentence: 573,1119,NUM,O
 21308,Sentence: 573,.,PUNCT,O
@@ -31489,7 +31489,7 @@
 31487,Sentence: 911,»,PUNCT,O
 31488,Sentence: 911,",",PUNCT,O
 31489,Sentence: 911,от,ADP,O
-31490,Sentence: 911,01.11.2012,NUM,O
+31490,Sentence: 911,01.11.2012,NUM,B-date
 31491,Sentence: 911,№,SYM,O
 31492,Sentence: 911,1119,NUM,O
 31493,Sentence: 911,«,PUNCT,O
@@ -32521,7 +32521,7 @@
 32519,Sentence: 936,Правительства,PROPN,O
 32520,Sentence: 936,РФ,PROPN,O
 32521,Sentence: 936,от,ADP,O
-32522,Sentence: 936,01.11.2012,NUM,O
+32522,Sentence: 936,01.11.2012,NUM,B-date
 32523,Sentence: 936,№,SYM,O
 32524,Sentence: 936,1119,NUM,O
 32525,Sentence: 936,.,PUNCT,O
@@ -40320,7 +40320,7 @@
 40318,Sentence: 1160,Правительства,PROPN,O
 40319,Sentence: 1160,РФ,PROPN,O
 40320,Sentence: 1160,от,ADP,O
-40321,Sentence: 1160,01.11.2012,NUM,O
+40321,Sentence: 1160,01.11.2012,NUM,B-date
 40322,Sentence: 1160,№,SYM,O
 40323,Sentence: 1160,1119,NUM,O
 40324,Sentence: 1160,"""",PUNCT,O
@@ -41327,7 +41327,7 @@
 41325,Sentence: 1187,№,SYM,O
 41326,Sentence: 1187,152-ФЗ,NUM,O
 41327,Sentence: 1187,от,ADP,O
-41328,Sentence: 1187,27.07.2012,ADJ,O
+41328,Sentence: 1187,27.07.2012,ADJ,B-date
 41329,Sentence: 1187,года,NOUN,O
 41330,Sentence: 1187,и,CCONJ,O
 41331,Sentence: 1187,принятым,VERB,O
@@ -41376,7 +41376,7 @@
 41374,Sentence: 1188,№,SYM,O
 41375,Sentence: 1188,152-ФЗ,NUM,O
 41376,Sentence: 1188,от,ADP,O
-41377,Sentence: 1188,27.07.2012,ADJ,O
+41377,Sentence: 1188,27.07.2012,ADJ,B-date
 41378,Sentence: 1188,года,NOUN,O
 41379,Sentence: 1188,",",PUNCT,O
 41380,Sentence: 1188,соотношение,NOUN,O
@@ -41398,7 +41398,7 @@
 41396,Sentence: 1188,№,SYM,O
 41397,Sentence: 1188,152-ФЗ,NUM,O
 41398,Sentence: 1188,от,ADP,O
-41399,Sentence: 1188,27.07.2012,ADJ,O
+41399,Sentence: 1188,27.07.2012,ADJ,B-date
 41400,Sentence: 1188,года,NOUN,O
 41401,Sentence: 1188,".,",PUNCT,O
 41402,Sentence: 1189,7,NUM,O
@@ -42587,7 +42587,7 @@
 42585,Sentence: 1239,Российской,ADJ,O
 42586,Sentence: 1239,Федерации,PROPN,O
 42587,Sentence: 1239,от,ADP,O
-42588,Sentence: 1239,01.11.2012,NUM,O
+42588,Sentence: 1239,01.11.2012,NUM,B-date
 42589,Sentence: 1239,№,SYM,O
 42590,Sentence: 1239,1119,NUM,O
 42591,Sentence: 1239,.,PUNCT,O
@@ -43715,7 +43715,7 @@
 43713,Sentence: 1283,БГУЭП,NOUN,O
 43714,Sentence: 1283,»,PUNCT,O
 43715,Sentence: 1283,от,ADP,O
-43716,Sentence: 1283,01.10.2012,ADJ,O
+43716,Sentence: 1283,01.10.2012,ADJ,B-date
 43717,Sentence: 1283,г,NOUN,O
 43718,Sentence: 1283,.,PUNCT,O
 43719,Sentence: 1283,№,SYM,O
@@ -43779,7 +43779,7 @@
 43777,Sentence: 1286,БГУЭП,NOUN,O
 43778,Sentence: 1286,»,PUNCT,O
 43779,Sentence: 1286,от,ADP,O
-43780,Sentence: 1286,22.10.2012,ADJ,O
+43780,Sentence: 1286,22.10.2012,ADJ,B-date
 43781,Sentence: 1286,г,NOUN,O
 43782,Sentence: 1286,.,PUNCT,O
 43783,Sentence: 1286,№,SYM,O
@@ -45797,7 +45797,7 @@
 45795,Sentence: 1343,Правительства,PROPN,O
 45796,Sentence: 1343,РФ,PROPN,O
 45797,Sentence: 1343,от,ADP,O
-45798,Sentence: 1343,01.11.2012,NUM,O
+45798,Sentence: 1343,01.11.2012,NUM,B-date
 45799,Sentence: 1343,№,SYM,O
 45800,Sentence: 1343,1119,NUM,O
 45801,Sentence: 1343,.,PUNCT,O
@@ -52024,7 +52024,7 @@
 52022,Sentence: 1501,№,SYM,O
 52023,Sentence: 1501,95-од,NUM,O
 52024,Sentence: 1501,от,ADP,O
-52025,Sentence: 1501,01.11.2012,NUM,O
+52025,Sentence: 1501,01.11.2012,NUM,B-date
 52026,Sentence: 1501,назначено,VERB,O
 52027,Sentence: 1501,лицо,NOUN,O
 52028,Sentence: 1501,",",PUNCT,O
@@ -53858,7 +53858,7 @@
 53856,Sentence: 1569,Российской,ADJ,O
 53857,Sentence: 1569,Федерации,PROPN,O
 53858,Sentence: 1569,от,ADP,O
-53859,Sentence: 1569,01.11.2012,NUM,O
+53859,Sentence: 1569,01.11.2012,NUM,B-date
 53860,Sentence: 1569,№,SYM,O
 53861,Sentence: 1569,1119,NUM,O
 53862,Sentence: 1569,.,PUNCT,O
@@ -57659,7 +57659,7 @@
 57657,Sentence: 1666,ректором,NOUN,O
 57658,Sentence: 1666,НГТУ,PROPN,O
 57659,Sentence: 1666,от,ADP,O
-57660,Sentence: 1666,29.08.2012,ADJ,O
+57660,Sentence: 1666,29.08.2012,ADJ,B-date
 57661,Sentence: 1666,г,NOUN,O
 57662,Sentence: 1666,.,PUNCT,O
 57663,Sentence: 1666,".,",PUNCT,O
@@ -64522,7 +64522,7 @@
 64520,Sentence: 1851,Правительства,PROPN,O
 64521,Sentence: 1851,РФ,PROPN,O
 64522,Sentence: 1851,от,ADP,O
-64523,Sentence: 1851,01.11.2012,NUM,O
+64523,Sentence: 1851,01.11.2012,NUM,B-date
 64524,Sentence: 1851,№,SYM,O
 64525,Sentence: 1851,1119,NUM,O
 64526,Sentence: 1851,".,",PUNCT,O
@@ -65140,7 +65140,7 @@
 65138,Sentence: 1869,Правительства,PROPN,O
 65139,Sentence: 1869,РФ,PROPN,O
 65140,Sentence: 1869,от,ADP,O
-65141,Sentence: 1869,01.11.2012,NUM,O
+65141,Sentence: 1869,01.11.2012,NUM,B-date
 65142,Sentence: 1869,№,SYM,O
 65143,Sentence: 1869,1119,NUM,O
 65144,Sentence: 1869,.,PUNCT,O
@@ -68152,7 +68152,7 @@
 68150,Sentence: 1963,Правительства,PROPN,O
 68151,Sentence: 1963,РФ,PROPN,O
 68152,Sentence: 1963,от,ADP,O
-68153,Sentence: 1963,01.11.2012,NUM,O
+68153,Sentence: 1963,01.11.2012,NUM,B-date
 68154,Sentence: 1963,№,SYM,O
 68155,Sentence: 1963,1119,NUM,O
 68156,Sentence: 1963,.,PUNCT,O
@@ -68677,7 +68677,7 @@
 68675,Sentence: 1979,Правительства,PROPN,O
 68676,Sentence: 1979,РФ,PROPN,O
 68677,Sentence: 1979,от,ADP,O
-68678,Sentence: 1979,01.11.2012,NUM,O
+68678,Sentence: 1979,01.11.2012,NUM,B-date
 68679,Sentence: 1979,№,SYM,O
 68680,Sentence: 1979,1119,NUM,O
 68681,Sentence: 1979,.,PUNCT,O
@@ -70470,7 +70470,7 @@
 70468,Sentence: 2016,:,PUNCT,O
 70469,Sentence: 2016,Приказ,PROPN,O
 70470,Sentence: 2016,от,ADP,O
-70471,Sentence: 2016,11.01.2012,ADJ,O
+70471,Sentence: 2016,11.01.2012,ADJ,B-date
 70472,Sentence: 2016,года,NOUN,O
 70473,Sentence: 2016,№,SYM,O
 70474,Sentence: 2016,1/2,NUM,O
@@ -70489,7 +70489,7 @@
 70487,Sentence: 2016,".,",PUNCT,O
 70488,Sentence: 2017,Приказ,PROPN,O
 70489,Sentence: 2017,от,ADP,O
-70490,Sentence: 2017,11.01.2012,ADJ,O
+70490,Sentence: 2017,11.01.2012,ADJ,B-date
 70491,Sentence: 2017,года,NOUN,O
 70492,Sentence: 2017,№,SYM,O
 70493,Sentence: 2017,1/1,NUM,O
@@ -70530,7 +70530,7 @@
 70528,Sentence: 2017,ВПО,PROPN,O
 70529,Sentence: 2017,СГГА,PROPN,O
 70530,Sentence: 2017,от,ADP,O
-70531,Sentence: 2017,11.01.2012,ADJ,O
+70531,Sentence: 2017,11.01.2012,ADJ,B-date
 70532,Sentence: 2017,года,NOUN,O
 70533,Sentence: 2017,".,",PUNCT,O
 70534,Sentence: 2017,должностные,ADJ,O
@@ -71496,7 +71496,7 @@
 71494,Sentence: 2059,ректора,NOUN,O
 71495,Sentence: 2059,Академии,PROPN,O
 71496,Sentence: 2059,от,ADP,O
-71497,Sentence: 2059,10.10.2012,NUM,O
+71497,Sentence: 2059,10.10.2012,NUM,B-date
 71498,Sentence: 2059,№,SYM,O
 71499,Sentence: 2059,119-ОД,NUM,O
 71500,Sentence: 2059,".,",PUNCT,O
@@ -72226,7 +72226,7 @@
 72224,Sentence: 2089,№,SYM,O
 72225,Sentence: 2089,86/12-р,NUM,O
 72226,Sentence: 2089,от,ADP,O
-72227,Sentence: 2089,12.12.2012,ADJ,O
+72227,Sentence: 2089,12.12.2012,ADJ,B-date
 72228,Sentence: 2089,г,NOUN,O
 72229,Sentence: 2089,.,PUNCT,O
 72230,Sentence: 2089,между,ADP,O
@@ -72788,7 +72788,7 @@
 72786,Sentence: 2110,с,ADP,O
 72787,Sentence: 2110,Постановлением,PROPN,O
 72788,Sentence: 2110,от,ADP,O
-72789,Sentence: 2110,01.11.2012,ADJ,O
+72789,Sentence: 2110,01.11.2012,ADJ,B-date
 72790,Sentence: 2110,№,SYM,O
 72791,Sentence: 2110,1119,NUM,O
 72792,Sentence: 2110,«,PUNCT,O
@@ -73249,7 +73249,7 @@
 73247,Sentence: 2126,с,ADP,O
 73248,Sentence: 2126,Постановлением,PROPN,O
 73249,Sentence: 2126,от,ADP,O
-73250,Sentence: 2126,01.11.2012,ADJ,O
+73250,Sentence: 2126,01.11.2012,ADJ,B-date
 73251,Sentence: 2126,№,SYM,O
 73252,Sentence: 2126,1119,NUM,O
 73253,Sentence: 2126,«,PUNCT,O
@@ -77208,7 +77208,7 @@
 77206,Sentence: 2224,ним,PRON,O
 77207,Sentence: 2224,»,PUNCT,O
 77208,Sentence: 2224,от,ADP,O
-77209,Sentence: 2224,03.02.2012,ADJ,O
+77209,Sentence: 2224,03.02.2012,ADJ,B-date
 77210,Sentence: 2224,г,NOUN,O
 77211,Sentence: 2224,.,PUNCT,O
 77212,Sentence: 2224,",",PUNCT,O
@@ -77241,7 +77241,7 @@
 77239,Sentence: 2224,№,SYM,O
 77240,Sentence: 2224,60-осн,NUM,O
 77241,Sentence: 2224,от,ADP,O
-77242,Sentence: 2224,01.03.2012,ADJ,O
+77242,Sentence: 2224,01.03.2012,ADJ,B-date
 77243,Sentence: 2224,г,NOUN,O
 77244,Sentence: 2224,.,PUNCT,O
 77245,Sentence: 2224,",",PUNCT,O
