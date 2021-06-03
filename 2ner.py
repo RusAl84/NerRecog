@@ -122,10 +122,12 @@ def train_model(filename):
 
 if __name__ == "__main__":
 
+    # Обучаем модель CRF и сохраняем в crf.pickle
     # crf = train_model('ner_my_razmech.csv')
     # with open('crf.pickle', 'wb') as f:
     #     pickle.dump(crf, f)
 
+    #Загружаем из crf.pickle модель CRF
     with open('crf.pickle', 'rb') as f:
         crf = pickle.load(f)
 
