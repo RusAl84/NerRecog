@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} Предподготовка текста{% endblock %}
+
+{% block main %}
+ <div  class = "container mt-5" >
+     <form method = "post">
+         <p><input type = "file" name = "dir" multiple accept="csv" /></p>
+         <p></p><input type = "text" name = "wfile" class = "form-control" placeholder ="Введите название файла, в который хотите записать обработанный текст">
+         <input type ="submit"   class ="btn btn-success" value ="Отправить" >
+     </form>
+ </div>
+
+{% endblock %}

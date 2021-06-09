@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %} Анализ текста{% endblock %}
+
+{% block main %}
+ <div  class = "container mt-5" >
+
+     <form method = "post">
+         <h1>Введите текст для анализа или загрузите файл</h1>
+         <textarea name = hand_text id ="hand" class ="form-control" rows="10"></textarea><br>
+         <input type = "file" name = "dir" multiple accept="csv" />
+         <input type = "file" name = "crfmodel" multiple accept="csv" />
+         <p></p><input type = "text" name = "wfile" class = "form-control" placeholder ="Введите название файла, в который нужно записать обработанный текст ">
+         <input type ="submit"   class ="btn btn-success" value ="Отправить" >
+     </form>
+ </div>
+
+{% endblock %}
