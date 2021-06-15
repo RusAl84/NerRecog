@@ -8,7 +8,9 @@
      <form method = "post">
          <h1>Введите текст для анализа или загрузите файл</h1>
          <textarea name = hand_text id ="hand" class ="form-control" rows="10"></textarea><br>
+         <p>Выбрать файл файл для анализа</p>
          <input type = "file" name = "dir" multiple accept="csv" />
+         <p>Выбрать файл обученной модели</p>
          <input type = "file" name = "crfmodel" multiple accept="csv" />
          <p></p><input type = "text" name = "wfile" class = "form-control" placeholder ="Введите название файла, в который нужно записать обработанный текст ">
          <input type ="submit"   class ="btn btn-success" value ="Отправить" >

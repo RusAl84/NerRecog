@@ -1,0 +1,11 @@
+,Unnamed: 0,Sentence #,Word,POS,Tag
+0,0,Sentence: 1,Kaspersky,X,O
+1,1,Sentence: 1,antivirus,X,O
+2,2,Sentence: 1,фыв,X,O
+3,3,Sentence: 1,фыв,ADJ,O
+4,4,Sentence: 1,фыв,NOUN,O
+5,5,Sentence: 1,п,ADP,O
+6,6,Sentence: 1,раз,NOUN,O
+7,7,Sentence: 1,два,NUM,O
+8,8,Sentence: 1,дата,NOUN,O
+9,9,Sentence: 1,число,NOUN,O
